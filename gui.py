@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.title("python gui")
+root.geometry("400x400")
+b=Button(root,bg='red',activebackground='green',height=3,width=10)
+b1=Button(root,text="welcome",bg='blue')
+b.pack()
+b1.pack()
+l=Label(root,text="welcome to my gui",fg='blue',font=500)
+l.pack()
+c=Canvas(root,bg='orange',height=300)
+c.pack()
